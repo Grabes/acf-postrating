@@ -208,7 +208,7 @@ class acf_field_postrating extends acf_field {
 		// vars
 		$i = 0;
 		$e = '';
-		$ul = array(
+		$div = array(
 			'class'				=> 'acf-postrating-list',
 			'data-allow_null'	=> $field['allow_null'],
 			'data-other_choice'	=> $field['other_choice']
@@ -216,8 +216,8 @@ class acf_field_postrating extends acf_field {
 
 
 		// append to class
-		$ul['class'] .= ' ' . ($field['layout'] == 'horizontal' ? 'acf-hl' : 'acf-bl');
-		$ul['class'] .= ' ' . $field['class'];
+		$div['class'] .= ' ' . ($field['layout'] == 'horizontal' ? 'acf-hl' : 'acf-bl');
+		$div['class'] .= ' ' . $field['class'];
 
 
 		// select value
@@ -288,7 +288,7 @@ class acf_field_postrating extends acf_field {
 
 
 		// open
-		$e .= '<div ' . acf_esc_attr($ul) . '>';
+		$e .= '<fieldset ' . acf_esc_attr($div) . '>';
 
 
 		// foreach choices
@@ -338,13 +338,13 @@ class acf_field_postrating extends acf_field {
 
 
 			// append
-			$e .= '<input ' . acf_esc_attr( $atts ) . '/><label' . $class . '></label>';
+			$e .= '<input ' . acf_esc_attr( $atts ) . '/><label' . $class . ' for="' . $atts['id'] . '"></label>';
 
 		}
 
 
 		// close
-		 $e .= '</div>';
+		 $e .= '</fieldset>';
 
 
 		// return
