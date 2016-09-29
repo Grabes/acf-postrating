@@ -2,11 +2,11 @@
 
 /*
 Plugin Name: Advanced Custom Fields: Post Ratings
-Plugin URI: PLUGIN_URL
-Description: SHORT_DESCRIPTION
+Plugin URI: https://bitbucket.org/idea-rebel/wp-post-rating-plugin
+Description: Adds a new ACF field type for adding ratings to wordpress comments
 Version: 1.0.0
-Author: AUTHOR_NAME
-Author URI: AUTHOR_URL
+Author: Ehren Graber
+Author URI: http://idearebel.com
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */

@@ -1,23 +1,22 @@
 === Advanced Custom Fields: Post Ratings Field ===
-Contributors: AUTHOR_NAME
-Tags: PLUGIN_TAGS
+Contributors: Ehren Graber
+Tags: acf, ratings, comment review
 Requires at least: 3.5
 Tested up to: 3.8.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-SHORT_DESCRIPTION
+Adds a new ACF field type for adding ratings to wordpress comments
 
 == Description ==
 
-EXTENDED_DESCRIPTION
+Adds a new ACF field type for adding ratings to wordpress comments
 
 = Compatibility =
 
 This ACF field type is compatible with:
 * ACF 5
-* ACF 4
 
 == Installation ==
 
