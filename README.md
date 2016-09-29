@@ -1,10 +1,6 @@
-# ACF Field Type Template
+# ACF Post Ratings Field
 
-Welcome to the Advanced Custom Fields field type template repository.
-Here you will find a starter-kit for creating a new ACF field type. This start-kit will work as a normal WP plugin.
-
-For more information about creating a new field type, please read the following article:
-http://www.advancedcustomfields.com/resources/tutorials/creating-a-new-field-type/
+Adds a new ACF field for ratings
 
 ### Structure
 
@@ -25,8 +21,8 @@ This template uses `PLACEHOLDERS` such as `postrating` throughout the file names
 
 * `postrating`: Single word, no spaces. Underscores allowed. eg. donate_button
 * `Post Ratings`: Multiple words, can include spaces, visible when selecting a field type. eg. Donate Button
-* `PLUGIN_URL`: Url to the github or WordPress repository
-* `PLUGIN_TAGS`: Comma separated list of relevant tags
+* `https://bitbucket.org/idea-rebel/wp-post-rating-plugin`: Url to the Bitbucket repository
+* `acf, rating, stars`: Comma separated list of relevant tags
 * `SHORT_DESCRIPTION`: Brief description of the field type, no longer than 2 lines
 * `EXTENDED_DESCRIPTION`: Extended description of the field type
 * `AUTHOR_NAME`: Name of field type author
@@ -34,9 +30,7 @@ This template uses `PLACEHOLDERS` such as `postrating` throughout the file names
 
 ### step 2.
 
-Edit the `postrating-v5.php` and `postrating-v4.php` files (now renamed using your field name) and include your custom code in the appropriate functions.
-Please note that v4 and v5 field classes have slightly different functions. For more information, please read:
-* http://www.advancedcustomfields.com/resources/tutorials/creating-a-new-field-type/
+Edit the `postrating-v5.php`
 
 ### step 3.
 
