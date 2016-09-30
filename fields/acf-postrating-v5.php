@@ -243,7 +243,7 @@ class acf_field_postrating extends acf_field {
 		// select first input by default
 		} else {
 
-			$checked = key($field['choices']);
+			$checked = '';
 
 		}
 
